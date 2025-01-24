@@ -1,0 +1,50 @@
+[[redirects]]
+  from = "/"
+  to = "https://www.moklet.org"
+  status = 301
+
+[[redirects]]
+  from = "/f/*"
+  to = "https://www.moklet.org/form/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/twbn/*"
+  to = "https://www.moklet.org/twbn/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/_next/*"
+  to = "https://www.moklet.org/_next/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/auth/*"
+  to = "https://www.moklet.org/api/auth/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/api/auth/*"
+  to = "https://www.moklet.org/api/auth/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/favicon.ico"
+  to = "https://www.moklet.org/favicon.ico"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/horizontal.svg"
+  to = "https://www.moklet.org/horizontal.svg"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "https://www.moklet.org/link/:splat"
+  status = 200
+  force = true
